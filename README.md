@@ -1,1 +1,1 @@
-# bplions-notebook
+# 1stfriday-notebook
