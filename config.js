@@ -9,7 +9,7 @@ window.APP_CONFIG = {
 
   phone: "010-7788-8883",
 
-  copyright: "Developed by Hwang Moongi, Class of 55, Handong",
+  copyright: "Developed by Hwang Moongi, Member of 1st FRIDAY CLUB as",
 
   // (선택) 기본 이미지 (설정시트에 로고/배경이 있으면 그게 우선)
   logoUrl: "./logo.png",
