@@ -7,7 +7,7 @@ window.APP_CONFIG = {
 
   address: "경북 포항시 남구 연일읍 유강길 10번길 9",
 
-  phone: "010-7788-8883",
+  phone: "054-277-8825",
 
   copyright: "Developed by Hwang Moongi, Member of 1st FRIDAY CLUB as",
 
