@@ -5,7 +5,7 @@ window.APP_CONFIG = {
   clubName: "초 금 회",
   district: "첫 금요일, 함께하는 병원행정관리자모임",
 
-  address: "경북 포항시",
+  address: "경북 포항시 남구 연일읍 유강길 10번길 9",
 
   phone: "010-7788-8883",
 
