@@ -2857,12 +2857,11 @@ calendar.addEventSource({
       return { html: String(arg.date.getDate()) };
     },
 
-    // 달력 칸에는 제목만  전체일정 빨간색 처리 포함
 eventContent(arg) {
 
-  const gisu = Number(arg.event.extendedProps?.gisu || 0);
+  const isGoogleHoliday = arg.event.extendedProps?.gisu === undefined;
 
-  const colorStyle = (gisu === 0)
+  const colorStyle = isGoogleHoliday
     ? 'style="color:#d60000;font-weight:700;"'
     : '';
 
