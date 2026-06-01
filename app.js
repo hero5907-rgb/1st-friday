@@ -970,7 +970,7 @@ for (const gisu of sortedGisu) {
 
               arr.forEach(v => {
                 html += `
-                  <span class="badge ${v.includes("총동문") ? 'badge-exec' : ''}">
+                  <span class="badge ${v.includes("현") ? 'badge-exec' : ''}">
                     ${esc(v)}
                   </span>
                 `;
