@@ -1561,7 +1561,7 @@ html, body {
 
 /* 버튼 - 은은한 고급 블루 */
 #screenLogin.handong .btn.primary{
-  background: linear-gradient(135deg,#1e3a8a,#2563eb) !important;
+  background: linear-gradient(135deg,#1F4D3A,#2D6A4F) !important;
   box-shadow:0 10px 25px rgba(37,99,235,.35);
   border-radius:18px;
 }
