@@ -381,9 +381,9 @@ if(btnHall){
 
   // ⭐ 버튼에 번호까지 표시
   if(hallPhone){
-    btnHall.textContent = `☎ 대학 통화 (${hallPhone})`;
+    btnHall.textContent = `☎ 앱관리자 통화 (${hallPhone})`;
   }else{
-    btnHall.textContent = "☎ 대학 통화";
+    btnHall.textContent = "☎ 앱관리자 통화";
   }
 
   btnHall.onclick = ()=>{
@@ -1027,7 +1027,7 @@ function renderAnnouncements() {
       <div class="row-main">
         <div class="row-title">${esc(a.title || "")}</div>
         <div class="row-sub">${formatDateTime(a.date)} ${a.author ? " · " + esc(a.author) : ""}</div>
-        <div class="row-sub" style="white-space:normal;margin-top:8px;">${esc(a.body || "")}</div>
+        <div class="row-sub" style="white-space:pre-line;margin-top:8px;">${esc(a.body || "")}</div>
       </div>`;
 
    row.addEventListener("click", () => openAnnModal(a));
