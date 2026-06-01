@@ -2,7 +2,8 @@
 
 
 
-:root{--blue:#1F4D3A;--blue2:#16392B;--bg:#f4f7f5;--card:#fff;--text:#0b1220;--muted:#64748b;--line:#e5eaf3;--shadow:0 10px 25px rgba(12,20,38,.12);--radius:18px}
+
+:root{--blue:#0b4ea2;--blue2:#0a3e83;--bg:#f2f5fa;--card:#fff;--text:#0b1220;--muted:#64748b;--line:#e5eaf3;--shadow:0 10px 25px rgba(12,20,38,.12);--radius:18px}
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Noto Sans KR",sans-serif;background:var(--bg);color:var(--text)}
 .topbar{
@@ -19,7 +20,18 @@ body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Noto Sans KR"
 }
 
 .brand{flex:1;display:flex;align-items:center;gap:10px;min-width:0}
-.brand-logo{width:34px;height:34px;border-radius:10px;background:rgba(255,255,255,.14);object-fit:contain;padding:4px}
+.brand-logo{
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  background:#fff;
+  object-fit:contain;
+  padding:4px;
+
+  box-shadow:
+    0 2px 8px rgba(0,0,0,.18),
+    inset 0 1px 0 rgba(255,255,255,.9);
+}
 .brand-title{min-width:0}.brand-sub{font-size:12px;opacity:.9;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .brand-main{font-size:16px;font-weight:800;letter-spacing:-.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .container{max-width:720px;margin:0 auto 40px;padding:0 14px}
@@ -752,7 +764,7 @@ font-size: clamp(15px, 5vw, 24px);
   height:46px;
   border:none;
   border-radius:14px;
-  background:#1F4D3A;
+  background:#0b4ea2;
   color:#fff;
   font-weight:900;
 }
@@ -842,7 +854,7 @@ font-size: clamp(15px, 5vw, 24px);
 }
 
 .btn-blue{
-  background:#1F4D3A;
+  background:#0b4ea2;
   color:#fff;
   border:none;
   padding:6px 14px;
@@ -1547,10 +1559,10 @@ html, body {
   border-radius:16px;
 }
 
-/* 버튼 - 은은한 고급 초록 */
+/* 버튼 - 은은한 고급 블루 */
 #screenLogin.handong .btn.primary{
-  background: linear-gradient(135deg,#1F4D3A,#2D6A4F) !important;
-  box-shadow:0 10px 25px rgba(31,77,58,.35);
+  background: linear-gradient(135deg,#1e3a8a,#2563eb) !important;
+  box-shadow:0 10px 25px rgba(37,99,235,.35);
   border-radius:18px;
 }
 
@@ -2246,7 +2258,7 @@ html, body {
   height:44px;
   border-radius:50%;
   border:none;
-  background:#1F4D3A;
+  background:#0b4ea2;
   color:#fff;
   font-size:20px;
   box-shadow:0 6px 14px rgba(0,0,0,.2);
@@ -2535,7 +2547,7 @@ button:active{
 
   border-radius:22px;
 
-  background: linear-gradient(180deg,#1F4D3A 0%,#16392B 100%);
+  background: linear-gradient(180deg,#0b4ea2 0%,#083a78 100%);
 
   color:#fff;
   text-align:center;
