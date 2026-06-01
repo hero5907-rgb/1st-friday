@@ -3612,5 +3612,10 @@ button:active{
 
 
 
+.gisu-title {
+  display: none !important;
+}
 
-
+.calendar-legend {
+  display: none !important;
+}

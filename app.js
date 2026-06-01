@@ -1285,7 +1285,7 @@ if (popupRes && popupRes.ok === true){
                         height:8px;
                         border-radius:50%;
                         display:inline-block;
-                        background:${Number(e.gisu||0) === 0 ? '#e53935' : '#111'};
+                        background:'#111';
                       "></span>
                       ${e.title || ""}
                     </div>
